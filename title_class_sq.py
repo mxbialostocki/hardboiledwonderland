@@ -1,7 +1,7 @@
-class Title:
+class Title_sq:
     """
     This defines the data schema for a Squarespace product according to the existing structure of a squarespace products CSV.
-    
+
     This can later be seperated in mutable and immutable data fields for code-clarity.
     """
 
