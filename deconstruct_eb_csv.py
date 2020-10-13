@@ -15,6 +15,8 @@ print(eb_csv.info())
 
 result = eb_csv.to_dict(orient='records')
 
-print(result)
+for title in result:
+    print(title["TITLE"], ' || ', title["ISBN"])
+
 # for i in eb_csv:
 #     print(i)
