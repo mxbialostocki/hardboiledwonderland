@@ -12,6 +12,8 @@ print(eb_csv.info())
 
 # for el in eb_csv[3:13]:
 #     print(el)
+extraction = eb_csv[(len(eb_csv['TITLE']) > 15) & (eb_csv['ON HAND'] >= 30)]
+print(extraction)
 
 result = eb_csv.to_dict(orient='records')
 
