@@ -1,7 +1,7 @@
 import pandas as pd
 
-read_file = pd.read_excel (r'./local/ebility_category_test.xls')
+df = pd.read_excel(open('/home/bxmbxm/workspace/hardboiledwonderland/local/ebility_category_test.XLS', 'r'))
 
-print(read_file)
+print(df.readlines())
 
-read_file.to_csv (r'./local/generated/', index=None, header=True)
+# df.to_csv (r'./local/generated/', index=None, header=True)
